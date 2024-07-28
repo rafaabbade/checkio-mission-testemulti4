@@ -10,6 +10,21 @@ Each test is a dict with
 
 TESTS = {
     "Basics": [
-        {{TESTES}}
+            {
+        "input": [10, 14],
+        "answer": "semifinal"
+    },
+    {
+        "input": [7, 8],
+        "answer": "oitavas"
+    },
+    {
+        "input": [3, 13],
+        "answer": "final"
+    },
+    {
+        "input": [5, 8],
+        "answer": "quartas"
+    }
     ]
 }

@@ -1,20 +1,21 @@
 <!-- Describe task in general -->
 <p>
-    {{TIPO}}
+    Construção de conhecimento
 </p>
 <p>
-    {{ENUNCIADO}}
+    Em uma copa do mundo de ping-pong, a chave decisiva possui 16 posições numeradas de 1 a 16. Os jogadores enfrentam-se de acordo com suas posições na chave, e todos querem evitar enfrentar o Mestre Kung até as fases finais. </p> <img  title="example" src="{{MEDIA}}copa.png" alt="example" style="max-height: 300px"/>
+<p>Dadas as posições de Mestre Kung e Mestre Lu na chave, seu programa deve determinar em que fase eles se enfrentarão, assumindo que ambos vençam suas partidas até o encontro entre eles.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> {{ENTRADA}}
+    <strong>Entrada: </strong> Dois inteiros K e L, onde K representa a posição de Mestre Kung na chave e L representa a posição de Mestre Lu.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma string indicando a fase em que Mestre Kung e Mestre Lu vão se enfrentar: "oitavas", "quartas", "semifinal" ou "final".
 </p>
 
 
@@ -30,11 +31,14 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    copa(10, 14) >> "semifinal"
+copa(7, 8) >> "oitavas"
+copa(3, 13) >> "final"
+copa(5, 8) >> "quartas"
 </pre>
 {% endif %}
 </div>
 <h4>Habilidades</h4>
 <ul>
-    {{HABILIDADES}}
+    <li>Manipulação de Strings</li>
 </ul>

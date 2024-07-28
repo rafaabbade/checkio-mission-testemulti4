@@ -1,1 +1,16 @@
-{{CODIGO INICIAL}}
+def copa(K, L):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(copa(10, 14))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+
+assert copa(10, 14) == "semifinal"
+assert copa(7, 8) == "oitavas"
+assert copa(3, 13) == "final"
+assert copa(5, 8) == "quartas"
+
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
